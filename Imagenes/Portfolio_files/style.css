@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+p {
+  line-height: 2;
+  font-size: 14px
+}
+
+.background-image {
+  background: url(../../Imagenes/Xbhv3d.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none !important;
+  color: gray !important;
+}
